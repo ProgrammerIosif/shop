@@ -1,6 +1,7 @@
 {
   "name": "shop",
   "private": true,
+  "homepage": "https://programmeriosif.github.io/shop",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
