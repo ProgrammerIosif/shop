@@ -8,17 +8,17 @@ const Header = ({currPage}) => {
               md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
               <li>
                   <a className={`${currPage === 'home' ? 'text-neutral-content' : 'text-primary-content'}
-                                pr-12 text-2xl hover:text-neutral-content duration-300`} href='/'
+                                pr-12 text-2xl hover:text-neutral-content duration-300`} href='/shop/'
                      onClick={e => currPage === 'home' ? e.preventDefault() : {}}>Home</a>
               </li>
               <li>
                   <a className={`${currPage === 'shop' ? 'text-neutral-content' : 'text-primary-content'}
-                                pr-12 text-2xl hover:text-neutral-content duration-300`} href='/shop'
+                                pr-12 text-2xl hover:text-neutral-content duration-300`} href='/shop/shop'
                      onClick={e => currPage === 'shop' ? e.preventDefault() : {}}>Shop</a>
               </li>
               <li>
                   <a className={`${currPage === 'home' ? 'text-neutral-content' : 'text-primary-content'}
-                                text-primary-content opacity-70 hover:opacity-100 hover:text-neutral-content duration-300"`} href="/cart"
+                                text-primary-content opacity-70 hover:opacity-100 hover:text-neutral-content duration-300"`} href="/shop/cart"
                      onClick={e => currPage === 'cart' ? e.preventDefault() : {}}>
                     <img className="pl-3 h-8" src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" alt="" />
                   </a>
