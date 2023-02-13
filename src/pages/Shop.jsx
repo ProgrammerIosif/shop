@@ -1,17 +1,22 @@
+import { useEffect } from 'react'
 import Header from '../components/Header'
+import ProductCard from '../components/ProductCard'
+import Modal from '../components/Modal'
+import products from '../products.json'
 
-const Shop = () => {
+const Shop = ({handleUpdate}) => {
+
+  const addProductToCart = (productIndex) => {
+    handleUpdate(productIndex);
+  } 
+
   return (
-    <div id="shop" className='bg-white h-full'>
+    <div id="shop" className="bg-accent">
       <Header currPage="shop" />
-      <h1>this is the shop</h1>
-      <ul>
-        <li>items</li>
-        <li>items</li>
-        <li>tems</li>
-        <li>tems</li>
-        <li>tems</li>
+      <ul className="py-10 flex justify-center items-center flex-wrap gap-40">
+        {products.map((product,idx) => <ProductCard name={product.name} price={product.price} func={()=>addProductToCart(idx)} key={idx}/>)}
       </ul>
+      <Modal />
     </div>
   );
 };
