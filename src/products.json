@@ -1,30 +1,67 @@
 [
   {
-    "name": "product1",
-    "price": 1.99
+    "name": "NEXT.JS",
+    "price": 1.99,
+    "img": "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"
   },
   {
-    "name": "product2",
-    "price": 2.99
+    "name": "REACT",
+    "price": 2.99,
+    "img": "https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png"
   },
   {
-    "name": "product3",
-    "price": 3.99
+    "name": "GATSBY",
+    "price": 3.99,
+    "img": "https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png"
   },
   {
-    "name": "product4",
-    "price": 4.99
+    "name": "JEST",
+    "price": 4.99,
+    "img": "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png"
   },
   {
-    "name": "product5",
-    "price": 5.99
+    "name": "NODE.JS",
+    "price": 5.99,
+    "img": "https://seeklogo.com/images/N/nodejs-logo-065257DE24-seeklogo.com.png"
   },
   {
-    "name": "product6",
-    "price": 6.99
+    "name": "WEBPACK",
+    "price": 6.99,
+    "img": "https://seeklogo.com/images/W/webpack-logo-9E66EE203A-seeklogo.com.png"
   },
   {
-    "name": "product7",
-    "price": 7.99
+    "name": "VITE",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png"
+  },
+  {
+    "name": "SASS",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png"
+  },
+  {
+    "name": "TAILWIND CSS",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+  },
+  {
+    "name": "VUE",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/V/vuejs-logo-17D586B587-seeklogo.com.png"
+  },
+  {
+    "name": "ANGULAR",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/A/angular-logo-B76B1CDE98-seeklogo.com.png"
+  },
+  {
+    "name": "TYPESCRIPT",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png"
+  },
+  {
+    "name": "PRISMA",
+    "price": 7.99,
+    "img": "https://seeklogo.com/images/P/prisma-logo-3805665B69-seeklogo.com.png"
   }
 ]
