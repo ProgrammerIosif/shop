@@ -1,6 +1,6 @@
 const Header = ({currPage}) => {
   return (
-    <div id="header" className="bg-accent bg-opacity-30 w-full h-24 drop-shadow-lg">
+    <div id="header" className="bg-opacity-40 w-full h-24 drop-shadow-lg">
         <div className="container px-4 md:px-4 h-full mx-auto flex justify-between items-center">
           <a className="text-4xl font-bold italic">SHOP</a>
 
