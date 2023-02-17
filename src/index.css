@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root,
-#root,
-html,
-body{
-  
+@layer components{
+  h6{
+    @apply lg:text-2xl;
+  }
 }
