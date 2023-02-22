@@ -7,6 +7,10 @@ const Cart = ({addedProducts}) => {
       <Header currPage="cart"/>
       <h1 className="my-20 text-center text-5xl font-bold">YOUR STACK</h1>
       <div className="p-0 md:p-10 flex flex-col items-center gap-12">
+        <div className="w-5/6 xs:w-4/6 flex justify-between items-center">
+          <div className="text-2xl sm:text-4xl">TOTAL : ${Math.floor(Object.keys(addedProducts).reduce(function (previous, key) { return previous + products[key].price; }, 0) * 100) / 100}</div>
+          <button className="btn">CHECKOUT</button>
+        </div>
         {products.map((item,idx) => !(addedProducts[idx] !== undefined) ? <></> :
             <div className="w-5/6 xs:w-4/6
                             md-px-20">
